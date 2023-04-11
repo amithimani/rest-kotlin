@@ -13,6 +13,6 @@ class HomeController {
 
     @GetMapping
     fun getItemByName(): String =
-       "This is Default page: use /item endpoint for testing"
+       "This is Default page: use /product endpoint for testing"
 
 }
